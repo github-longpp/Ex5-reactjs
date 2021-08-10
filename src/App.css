@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+  color: #333;
+  font-size: 100%;
+}
+
+.App {
+  background: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 9.9;
+  height: 100%;
+}
+
+
+
+.side-bar {
+  height: auto;
+  width: 270px;
+  background: lightgray;
+  flex-grow: 0.1;
+}
+
+.side-bar .title {
+  line-height: 35px;
+  background: grey;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 1px solid #222;
+}
+
+.side-bar .title p {
+  margin: auto 20px;
+}
+.side-bar .list-items {
+  background: lightgray;
+  list-style: none;
+  
+}
+
+
+
+.side-bar .list-items li {
+  line-height: 50px;
+  
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  
+  border-bottom: 1px solid #333;
+  
+  transition: all 0.3s ease;
+  
+}
+
+.side-bar .list-items li:hover {
+  background: bisque;
+}
+
+
+
+
+.side-bar .list-items li a {
+  margin: auto 40px;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  width: auto;
+  height: auto;
+  display: block;
+  
+}
+
+/* .side-bar .list-items li a:hover {
+  color: darkslategray;
+} */
+
+.navigation {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation .nav-title {
+  margin: auto 20px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.navigation .user-appear {
+  margin: auto 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navigation .user-appear p {
+  font-size: 18px;
+}
+
+.user-name {
+  margin-left: 12px;
+}
+
+.content {
+  margin: auto 20px;
+  height: 100%;
+  width: auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.content p {
+  margin: auto 20px;
+}
+
+.active {
+  background: bisque;
+}
