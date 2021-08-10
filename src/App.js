@@ -18,7 +18,6 @@ function App() {
               </div>
             )
             }
-// hello
 
           />
           <Route exact path="/history"
